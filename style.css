@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+
+background: #72dfc7;
+overflow: hidden;
+}
+.container{
+   max-width: 440px;
+   padding: 0 20px;
+   margin: 170px auto;
+}
+.wrapper{
+    width: 100%;
+    background:#fff;
+    border-radius: 5px;
+
+}
+.wrapper .title{
+    line-height: 80px;
+    background:#11c29c;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+
+}
+.wrapper form .row{
+    height: 45px;
+   
+    margin-bottom: 15px;
+    position: relative;
+
+
+}
+.wrapper form .row input{
+height: 100%;
+width: 100%;
+outline: none;
+padding-left: 60px ;
+border-radius: 5px;
+border: 1px solid grey;
+transition: all 0.3s ease;
+
+}
+
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+  background-color: hsl(167, 85%, 37%);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+form .row input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0 ;
+}
+.wrapper form .pass a{
+    color: #11c29c;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+    font-size: 17.5px;
+}
+.wrapper form .btn input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #11c29c;
+    cursor: pointer;
+
+}
+form .btn input:hover{
+    background-color:#12ae8c;
+}
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 15px;
+}
+.wrapper form .signup-link a{
+    color: #11c29c;
+    text-decoration: none;
+    
+}
+.wrapper form .signup-link a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
