@@ -10,6 +10,7 @@ body{
 background: #72dfc7;
 overflow: hidden;
 }
+
 .container{
    max-width: 440px;
    padding: 0 20px;
@@ -60,7 +61,7 @@ transition: all 0.3s ease;
   width: 47px;
   height: 100%;
   font-size: 18px;
-  color: #fff;
+  color: #f0efef;
   border-radius: 5px 0 0 5px;
   background-color: hsl(167, 85%, 37%);
   

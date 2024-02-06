@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: rgba(14, 241, 165, 0.326);
+    overflow: hidden;
+ 
+}
+
+.container{
+   
+    text-align: center;
+    padding:20px;
+    margin: 70px auto;
+    max-width: 440px;
+    
+}
+h1{
+    background-color: rgb(53, 245, 181);
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    background:#fff;
+    border-radius: 5px;
+
+}
+.container .box input{
+   
+    height: 100%;
+    width: auto;
+    border-radius:0px  15px 15px 0px;
+    margin: 10px;
+    font-size: 20px;
+    outline: none;
+    padding-left:20px ;
+    background-color: rgb(194, 255, 233);
+    color: black;
+    border: none;
+}
+
+.container .box i{
+    position: absolute;
+    height: 31px;
+    width: 30px;
+    background-color: rgb(194, 255, 233);
+    border-radius: 15px 0 0 15px;
+    margin-left: 40px;
+    margin-top:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.create{
+    margin-top:20px;
+}
+#sign{
+    font-size: 20px;
+    margin:15px ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color:rgba(82, 243, 189, 0.678);
+    border: none;
+   
+}
+#sign:hover{
+    background-color: rgb(50, 251, 184);
+    cursor: pointer;
+}
+.user{
+
+    padding-bottom: 30px;
+}
