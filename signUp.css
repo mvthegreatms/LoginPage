@@ -31,27 +31,36 @@ h1{
     border-radius: 5px;
 
 }
-.container .box input{
+.wrapper .box{
+    height: 45px;
    
+    margin-bottom: 15px;
+    position: relative;
+
+
+}
+.container .box input{
+    
     height: 100%;
-    width: auto;
-    border-radius:0px  15px 15px 0px;
+    width: 80%;
+    border-radius:15px;
     margin: 10px;
     font-size: 20px;
     outline: none;
-    padding-left:20px ;
+    padding-left:60px ;
     background-color: rgb(194, 255, 233);
     color: black;
     border: none;
+  
 }
 
-.container .box i{
+.box i{
     position: absolute;
-    height: 31px;
-    width: 30px;
-    background-color: rgb(194, 255, 233);
+    height: 100%;
+    width: 47px;
+    background-color: rgb(194,255,233);
     border-radius: 15px 0 0 15px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top:10px ;
     display: flex;
     justify-content: center;
